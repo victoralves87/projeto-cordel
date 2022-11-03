@@ -24,21 +24,24 @@ html, body{
 }
 
 header{
-    background-color: black;
+    background-image: linear-gradient(to bottom,  black ,rgb(2, 2, 92));
     color: white;
     text-align: center;
     font-family: var(--font02);
-    font-size: 6.5vh;
+
+    
 }
 
 header > h1{
     padding-top: 50px;
+    font-size: 8vh;
     
 
 }
 
 header > p{
     padding-bottom: 50px;
+    font-size: 1em;
     
 }
 
@@ -66,6 +69,10 @@ section{
 
 }
 
+section > p{
+    padding: 2em;
+}
+
 section.normal{
     background-color: white;
     color: black;
@@ -75,17 +82,36 @@ section.normal{
 section.imagem{
     background-color: rgb(61, 58, 58);
     color: white;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.466);
+    background-attachment: fixed;
 }
 
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.466);
     width: 400px;
+    text-shadow: 2px 1px 0px black;
 
 
 }
 
+section#img01{
+    background-image: url(../background001.jpg);
+    background-position: right center;
+    background-size: cover;
+
+
+}
+
+section#img02{
+    background-image: url(../background002.jpg);
+    background-position: right center;
+    background-size: cover;
+
+}
+
 footer{
-    background-color: black;
+    text-align: center;
+    background-image: linear-gradient(to bottom,  black ,rgb(2, 2, 92));
     color: white;
     padding: 7px;
 
