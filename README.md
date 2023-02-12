@@ -12,3 +12,4 @@
         <li>HTML</li>
         <li>CSS</li>
     </ul>
+    <h2>Se quiser acessar a visualização do site <a href="https://victoralves87.github.io/projeto-cordel/">CLIQUE AQUI</a></h2>
